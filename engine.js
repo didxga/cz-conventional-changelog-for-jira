@@ -64,7 +64,7 @@ module.exports = function(options) {
   const decorateJiraIssue = function(jiraIssue, options) {
     const prepend = options.jiraPrepend || ''
     const append = options.jiraAppend || ''
-    return jiraIssue ? `${prepend}${jiraIssue}${append} `: '';
+    return jiraIssue ? `${prepend}${jiraIssue}${append}`: '';
   }
 
   var types = getFromOptionsOrDefaults('types');
